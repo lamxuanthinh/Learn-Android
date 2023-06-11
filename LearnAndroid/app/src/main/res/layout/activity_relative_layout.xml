@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+
+    android:background="#fff"
+    android:ignoreGravity="@id/txt1"
+    tools:context=".RelativeLayout">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="155dp"
+        android:layout_height="87dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ff8000"
+
+        android:layout_alignLeft="@id/txt3"
+        android:gravity="center"
+        android:text="TextView 1" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:gravity="left"
+        android:layout_below="@id/txt1"
+        android:text="TextView 2" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="222dp"
+        android:layout_height="155dp"
+        android:layout_centerInParent="true"
+        android:background="#00ff40"
+        android:gravity="center"
+        android:text="TextView 3" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="dfd"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+</RelativeLayout>

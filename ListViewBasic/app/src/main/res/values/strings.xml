@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ListViewBasic</string>
+    <string-array name="arrCountry">
+        <item>UK</item>
+        <item>US</item>
+        <item>Korea</item>
+        <item>Japan</item>
+        <item>Viet Nam</item>
+        <item>Viet Nam</item>
+        <item>Viet Nam</item>
+        <item>Viet Nam</item>
+        <item>Viet Nam</item>
+        <item>Viet Nam</item>
+        <item>Viet Nam</item>
+        <item>Viet Nam</item>
+        <item>Viet Nam</item>
+        <item>Viet Nam</item>
+        <item>Viet Nam</item>
+        <item>Viet Nam</item>
+        <item>Viet Nam</item>
+        <item>Viet Nam</item>
+        <item>Viet Nam</item>
+        <item>Viet Nam</item>
+        <item>Viet Nam</item>
+        <item>Viet Nam</item>
+        <item>Viet Nam</item>
+        <item>China</item>
+    </string-array>
+</resources>
